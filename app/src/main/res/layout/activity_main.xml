@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- Relative layout is used when you want to add other fields(text fields,buttons) relative to parent or others. -->
+<!--  "match_parent" matches the parent width and height-->
+<!-- "wrap_content" used to specify width and height as per content
+l20: id is to use for internal purpose. l23: hint appears on screen layout_align parent top=true it will be on top ,  android:layout_alignTop="@+id/firstName" means to top of lastname first name will be there...
+ -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
