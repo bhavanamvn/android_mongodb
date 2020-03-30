@@ -4,6 +4,8 @@ package com.example.navyaspc.mongodb;
  * Created by Navya's PC on 9/3/2017.
  */
 
+// This has information about database name, api key, collection name, base url which are used to say where we are storing our data
+
 public class SupportData {
 
     public String getDatabaseName() {
